@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">التحدي الاول</string>
+    <string name="view_accessibility_ignore">هذا العرض يجب ان يهمل</string>
+    <string name="explore">اكتشف</string>
+    <string name="plan_your">خطتك</string>
+    <string name="luxurious_vacation">عطلة \n فاخرة</string>
+</resources>

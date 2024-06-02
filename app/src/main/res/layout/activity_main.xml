@@ -11,9 +11,68 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:scaleType="centerCrop"
+        android:contentDescription="@strings/view_accessibility_ignore"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/launch_screen_background" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="265dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="95dp"
+        android:contentDescription="@strings/view_accessibility_ignore"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:srcCompat="@drawable/aspen_logo" />
+
+    <TextView
+        android:id="@+id/planTextId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:text="@string/plan_your"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="4dp"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif"
+        app:layout_constraintBottom_toTopOf="@id/titleTextId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/titleTextId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:text="@string/luxurious_vacation"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp"
+        android:textSize="40sp"
+        app:fontFamily="sans-serif-medium"
+        app:layout_constraintBottom_toTopOf="@id/exploreButtonId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/exploreButtonId"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginVertical="48dp"
+        android:backgroundTint="#196EEE"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/explore"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        app:backgroundTint="#196EEE"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ChallengeOne</string>
+    <string name="view_accessibility_ignore">This view should be ignored</string>
+    <string name="explore">Explore</string>
+    <string name="plan_your">Plan your</string>
+    <string name="luxurious_vacation">Luxurious \nVacation</string>
 </resources>
