@@ -13,7 +13,7 @@
         android:layout_marginEnd="20dp"
         android:orientation="horizontal"
         android:gravity="bottom"
-        android:cornerRadius="26dp"
+        android:radius="26dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -107,7 +107,7 @@
             android:inputType="textPersonName"
             android:minHeight="48dp"
             android:hint="Find things to do"
-            android:background="color/transparent"
+            android:background="@null"
             tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>
 
