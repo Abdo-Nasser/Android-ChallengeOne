@@ -117,10 +117,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:scrollbars="none"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchBarLayout"
-        android:scrollbars="none">
+        app:layout_constraintTop_toBottomOf="@+id/searchBarLayout">
 
         <com.google.android.material.chip.ChipGroup
             android:id="@+id/chipGroup"
@@ -128,11 +128,22 @@
             android:layout_height="42dp"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
-            app:singleLine="true"
-            app:singleSelection="true"
             app:chipSpacingHorizontal="0dp"
-            >
-        </com.google.android.material.chip.ChipGroup>
+            app:singleLine="true"
+            app:singleSelection="true"></com.google.android.material.chip.ChipGroup>
     </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mainRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HorizontalScrollChipGroup"
+        app:layout_constraintVertical_bias="0.5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
